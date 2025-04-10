@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "ble:build": "swiftc -framework CoreBluetooth ble.swift -o BLEAdvertise",
+    "ble:run": "./BLEAdvertise"
+  }
+}
